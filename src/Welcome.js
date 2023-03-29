@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 function Welcome() {
     const navigate=useNavigate()
   return (
-    <div>Welcome
+    <div>Welcome Sai
     
     <button type="submit" onClick={()=>navigate("/Login")}>Logout</button>
     </div>
